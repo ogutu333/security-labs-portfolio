@@ -45,3 +45,30 @@ Baseline → Simulate Attack → Detect → Investigate → Remediate → Verify
 ### Key Takeaway
 
 The lab demonstrates how FIM can help SOC analysts identify unexpected file changes that may indicate **tampering, compromise, or other security events**.
+
+## Lab 02 — CVE Investigation
+
+**Focus:** Vulnerability Management | Network Security | Linux
+
+This lab demonstrates a practical vulnerability investigation using an intentionally vulnerable **Kioptrix Level 1** machine.
+
+I identified an outdated Samba service through Nmap, researched the associated **CVE-2003-0201 (trans2open)** vulnerability, validated the vulnerability in an isolated lab using Metasploit, assessed its potential impact, and documented remediation recommendations.
+
+### Workflow
+
+```text
+Scan → Identify Service → Research CVE → Validate → Assess Impact → Remediate
+```
+
+### Tools
+
+* Kali Linux
+* Nmap
+* Metasploit Framework
+* Kioptrix Level 1
+
+### Key Takeaway
+
+The lab demonstrates how a vulnerability investigation connects **service discovery, version identification, CVE research, controlled validation, risk assessment, and remediation** rather than treating vulnerability scanning as simply finding exploitable software.
+
+📄 **[Vulnerability Report](02-cve-investigation/vulnerability-report.md)**
