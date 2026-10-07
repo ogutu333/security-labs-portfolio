@@ -96,7 +96,7 @@ The system was considered to be in a known-good state before monitoring began.
 
 **Figure 1 — Initial monitored files in the simulated webroot.**
 
-![Initial webroot](evidence/baseline.png)
+![Initial webroot](evidence/initial-webroot.png)
 
 ---
 
@@ -183,7 +183,7 @@ This represented an attacker gaining the ability to modify content on a web serv
 
 **Figure 4 — Modified `index.html` showing the simulated web defacement.**
 
-![Modified index.html](evidence/03-modified-file.png)
+![Modified index.html](evidence/modification.png)
 
 ---
 
@@ -304,7 +304,7 @@ The modification was consistent with a simulated web defacement event.
 
 **Figure 6 — Investigation showing the difference between the known-good and modified versions of `index.html`.**
 
-![Investigation diff](evidence/05-investigation.png)
+![Investigation diff](evidence/investigation.png)
 
 ---
 
@@ -351,12 +351,6 @@ The result was:
 ```
 
 This confirmed that the monitored file once again matched the trusted baseline.
-
-### Evidence
-
-**Figure 8 — Final FIM verification confirming that the integrity violation has been resolved.**
-
-![Final verification](evidence/07-final-verification.png)
 
 ---
 
