@@ -46,6 +46,8 @@ Baseline → Simulate Attack → Detect → Investigate → Remediate → Verify
 
 The lab demonstrates how FIM can help SOC analysts identify unexpected file changes that may indicate **tampering, compromise, or other security events**.
 
+---
+
 ## Lab 02 — CVE Investigation
 
 **Focus:** Vulnerability Management | Network Security | Linux
