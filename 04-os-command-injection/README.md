@@ -1,8 +1,8 @@
 # Lab: OS Command Injection
 
-**Platform:** ThunderCipher (thundercipher.in)
-**Lab:** OS Command Injection
-**Difficulty:** Beginner
+**Platform:** ThunderCipher (thundercipher.in)  
+**Lab:** OS Command Injection  
+**Difficulty:** Beginner  
 **Objective:** Understand how OS command injection works, test command execution, read files and explore how the vulnerability can be fixed.
 
 ## 1. Introduction
@@ -112,6 +112,6 @@ Through this lab, I gained a better understanding of:
 This lab helped me understand how a small weakness in the way an application handles user input can lead to command execution.
 It also reinforced the importance of considering security during application development, rather than only addressing vulnerabilities after they have been discovered.
 
-**Lab credit:** ThunderCipher
-**Topic:** OS Command Injection
-**Status:** Completed
+**Lab credit:** ThunderCipher  
+**Topic:** OS Command Injection  
+**Status:** Completed  
